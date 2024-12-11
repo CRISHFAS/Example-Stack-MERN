@@ -1,29 +1,32 @@
 # mern-stack-example
-Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
 
-[![CI](https://github.com/mongodb-developer/mern-stack-example/actions/workflows/main.yaml/badge.svg)](https://github.com/mongodb-developer/mern-stack-example/actions/workflows/main.yaml)
+Antes de comenzar...
+- Asegúrese de estar familiarizado con Node.js y React.js. 
+- También necesitará acceso a una base de datos de MongoDB Atlas.
 
-## How To Run
-Create the file `mern/server/config.env` with your Atlas URI and the server port:
+## Configuración del proyecto 
+
+[Clone el Repositorio de GitHub](https://github.com/mongodb-developer/mern-stack-example)
+
+### Cómo correr?
+
+Cree el archivo con el URI de Atlas y el puerto del servidor en:`mern/server/config.env`
+
 ```
 ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/
 PORT=5050
 ```
 
-Start server:
+Servidor de inicio:
 ```
 cd mern/server
 npm install
 npm start
 ```
 
-Start Web server
+Iniciar servidor web:
 ```
 cd mern/client
 npm install
 npm run dev
 ```
-
-## Disclaimer
-
-Use at your own risk; not a supported MongoDB product

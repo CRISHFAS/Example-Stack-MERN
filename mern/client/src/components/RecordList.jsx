@@ -18,7 +18,7 @@ const Record = (props) => (
           className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-slate-100 h-9 rounded-md px-3"
           to={`/edit/${props.record._id}`}
         >
-          Edit
+          Editar
         </Link>
         <button
           className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-slate-100 hover:text-accent-foreground h-9 rounded-md px-3"
@@ -28,7 +28,7 @@ const Record = (props) => (
             props.deleteRecord(props.record._id);
           }}
         >
-          Delete
+          Eliminar
         </button>
       </div>
     </td>
@@ -79,23 +79,23 @@ export default function RecordList() {
   // This following section will display the table with the records of individuals.
   return (
     <>
-      <h3 className="text-lg font-semibold p-4">Employee Records</h3>
+      <h3 className="text-lg font-semibold p-4">Registros de empleados</h3>
       <div className="border rounded-lg overflow-hidden">
         <div className="relative w-full overflow-auto">
           <table className="w-full caption-bottom text-sm">
             <thead className="[&amp;_tr]:border-b">
               <tr className="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                  Name
+                  Nombre
                 </th>
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                  Position
+                  Posición
                 </th>
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                  Level
+                  Nivel
                 </th>
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
-                  Action
+                  Acción
                 </th>
               </tr>
             </thead>
