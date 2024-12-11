@@ -6,7 +6,7 @@ Antes de comenzar...
 
 ## Configuración del proyecto 
 
-[Clone el Repositorio de GitHub](https://github.com/mongodb-developer/mern-stack-example)
+[Clone el Repositorio de GitHub](https://github.com/CRISHFAS/Example-Stack-MERN)
 
 ### Cómo correr?
 
